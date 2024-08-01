@@ -103,4 +103,8 @@ sections:
 #      # Reduce spacing
 #      spacing:
 #        padding: [0, 0, 0, 0]
+
+
+# Twitter Feed
+<a class="twitter-timeline" href="https://twitter.com/Skrumpis?ref_src=twsrc%5Etfw">Tweets by Skrumpis</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ---
