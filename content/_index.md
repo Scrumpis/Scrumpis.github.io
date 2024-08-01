@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: Sunny_boat_crop.jpg
+          filename: Waikiki_night.jpg
           filters:
             brightness: 1.0
           size: cover
