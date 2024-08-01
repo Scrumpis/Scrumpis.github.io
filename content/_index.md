@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: Night_beach_DR.jpg
+          filename: Sunny_boat_crop.jpg
           filters:
             brightness: 1.0
           size: cover
