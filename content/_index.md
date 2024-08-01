@@ -35,13 +35,11 @@ sections:
       title: '🌿 My Research 🧬'
       subtitle: ''
       text: |-
-        I am a graduate research assistant in Dr. Eric Patterson's lab at Michigan State University.
-
-        I utilize a range of computational approaches for comparative genomics of weedy and non-weedy plant genomes to understand the adaptive capabilities of weeds. For this work I have            used techniques such as phyologeny, dN/dS, genome annotation, alignment, differential expression, enrichment, and a variety of visualization methods.
+        As a graduate research assistant in Dr. Eric Patterson's lab at Michigan State University, I utilize a range of computational approaches for comparative genomics of weedy and non-           weedy plant genomes to understand the adaptive capabilities of weeds. For this work I have performed analyses such as phyologeny, dN/dS, genome annotation, alignment, differential expression, enrichment, and a variety of visualization methods.
 
         I enjoy producing computational tools from my work with the aim of making computational analysis more approachable for non-computational biologists.
         
-        Please reach out to collaborate 😃
+        Please reach out if you would like to collaborate!
     design:
       columns: '1'
 #  - block: collection
