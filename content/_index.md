@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: Hawaiian_Cliff.jpg
+          filename: Hawaiian_Cliff.svg
           filters:
             brightness: 1.0
           size: cover
