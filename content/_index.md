@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: Waikiki_night.jpg
+          filename: Northern_HI.jpg
           filters:
             brightness: 1.0
           size: cover
