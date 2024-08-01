@@ -123,7 +123,7 @@ skills:
       - name: Traveling
         description: ''
         percent: 100
-        icon: globe
+        icon: plane
       - name: Photography
         description: ''
         percent: 80
@@ -132,9 +132,7 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
+  - name: Spanish
     percent: 25
 
 # Awards.
