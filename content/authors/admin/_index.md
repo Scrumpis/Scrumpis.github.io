@@ -120,10 +120,10 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Traveling
         description: ''
         percent: 100
-        icon: cat
+        icon: globe
       - name: Photography
         description: ''
         percent: 80
