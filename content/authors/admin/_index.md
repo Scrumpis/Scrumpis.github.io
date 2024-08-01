@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: 
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Nick Johnson
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Nick
+last_name: Johnson
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🌿
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,27 +20,27 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: PhD Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Michigan State University
+    url: https://www.thepattersonplantlab.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:john7932@msu.edu'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://twitter.com/Skrumpis
+  [//]: # (- icon: brands/instagram)
+    [//]: # (url: https://www.instagram.com/)
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/Scrumpis
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/nick-johnson-b771b01a9/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/orcid
