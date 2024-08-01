@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "Nick Johnson"
+title: ""
 date: 2022-10-24
 type: landing
 
@@ -13,7 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ""
+      text: "Nick Johnson"
       # Show a call-to-action button under your biography? (optional)
       button:
         text: View or Download CV
