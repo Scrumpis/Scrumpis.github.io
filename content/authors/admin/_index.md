@@ -53,7 +53,7 @@ education:
   - area: PhD Genomics and Evolution
     institution: Michigan State University
     date_start: 2021-08-16
-    date_end: Present
+    date_end: 
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
