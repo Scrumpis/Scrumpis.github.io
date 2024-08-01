@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: View or Download CV
-        url: ../../Scrumpis/CV/NAJohnsonCV.pdf
+        url: /Scrumpis/CV/NAJohnsonCV.pdf
     design:
       css_class: dark
       background:
