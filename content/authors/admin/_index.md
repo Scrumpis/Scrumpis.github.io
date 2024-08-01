@@ -40,20 +40,20 @@ profiles:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/nick-johnson-b771b01a9/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=HDKLhBgAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0001-7272-6474/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Plant Genomics
+  - Evolution
+  - Computational Biology
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Genomics and Evolution
+    institution: Michigan State University
+    date_start: 2021-08-16
+    date_end: Present
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
