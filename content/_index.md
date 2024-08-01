@@ -35,7 +35,7 @@ sections:
       title: '🌿 My Research 🧬'
       subtitle: ''
       text: |-
-        I am a graduate research assistant in [Dr. Eric Patterson's](https://www.thepattersonplantlab.com/) lab at Michigan State University.
+        I am a graduate research assistant in Dr. Eric Patterson's lab at Michigan State University.
 
         I utilize a range of computational approaches for comparative genomics of weedy and non-weedy plant genomes to understand the adaptive capabilities of weeds. For this work I have            used techniques such as phyologeny, dN/dS, genome annotation, alignment, differential expression, enrichment, and a variety of visualization methods.
 
