@@ -26,7 +26,7 @@ sections:
           # Add your image background to `assets/media/`.
           filename: Sunny_boat.jpg
           filters:
-            brightness: 1.0
+            brightness: 0.5
           size: cover
           position: top
           parallax: true
