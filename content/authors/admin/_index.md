@@ -181,6 +181,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Nick Johnson is a dual PhD candidate of genetics and genome sciences and ecology, evolution, and behavior at Michigan State University. His research interests include plant adaptation,  
+Nick Johnson is a dual PhD candidate of genetics and genome sciences and ecology, evolution, and behavior at Michigan State University. His research interests include plant adaptation, predicting phenotype from genotype, and public data analysis. His dissertation is focused on using comparative genomics to reveal adaptive genomic patterns in agronomic weeds.
