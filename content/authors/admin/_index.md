@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nick
+title:
 
 # Name pronunciation (optional)
 name_pronunciation: Nick Johnson
@@ -53,7 +53,7 @@ education:
   - area: PhD Genomics and Evolution
     institution: Michigan State University
     date_start: 2021-08-16
-    date_end: 
+    date_end: ''
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Eric L Patterson](https://www.thepattersonplantlab.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
@@ -98,7 +98,7 @@ work:
     company_url: ''
     company_logo: ''
     date_start: 2024-07-15
-    date_end: ''
+    date_end: 2025-10-12
     summary: |
       Responsibilities include:
       - Assembling and annotating genomes
@@ -181,4 +181,4 @@ awards:
 
 ## About Me
 
-Nick Johnson is a dual PhD candidate of genetics and genome sciences and ecology, evolution, and behavior at Michigan State University. His research interests include plant adaptation, predicting phenotype from genotype, and public data analysis. His dissertation is focused on using comparative genomics to reveal adaptive genomic patterns in agronomic weeds.
+Nick Johnson is a dual PhD candidate of genetics and genome sciences and ecology, evolution, and behavior at Michigan State University. His research interests include plant adaptation, predicting phenotype from genotype, and public data analysis. His dissertation is using comparative genomics to reveal adaptive genomic patterns in agronomic weeds.
