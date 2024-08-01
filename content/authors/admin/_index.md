@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Nick
+title: Nicholas A Johnson
 
 # Name pronunciation (optional)
-name_pronunciation: Nicholas A Johnson
+name_pronunciation:
 
 # Full name (for SEO)
 first_name: Nicholas
