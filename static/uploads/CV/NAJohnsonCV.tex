@@ -1,0 +1,1016 @@
+\documentclass[10pt, letterpaper]{article}
+% The below LaTeX markdown document was modified from RenderCV_EngineeringResumes_Theme
+% markdown document from overleaf.com
+
+% Packages:
+\usepackage[
+    ignoreheadfoot, % set margins without considering header and footer
+    top=2 cm, % seperation between body and page edge from the top
+    bottom=2 cm, % seperation between body and page edge from the bottom
+    left=2 cm, % seperation between body and page edge from the left
+    right=2 cm, % seperation between body and page edge from the right
+    footskip=1.0 cm, % seperation between body and footer
+    % showframe % for debugging 
+]{geometry} % for adjusting page geometry
+\usepackage{titlesec} % for customizing section titles
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+\usepackage[dvipsnames]{xcolor} % for coloring text
+\definecolor{primaryColor}{RGB}{0, 0, 0} % define primary color
+\usepackage{enumitem} % for customizing lists
+\usepackage{fontawesome5} % for using icons
+\usepackage{amsmath} % for math
+\usepackage[
+    pdftitle={NicholasAJohnsonCV},
+    pdfauthor={Nicholas A. Johnson},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref} % for links, metadata and bookmarks
+\usepackage[pscoord]{eso-pic} % for floating text on the page
+\usepackage{calc} % for calculating lengths
+\usepackage{bookmark} % for bookmarks
+\usepackage{lastpage} % for getting the total number of pages
+\usepackage{changepage} % for one column entries (adjustwidth environment)
+\usepackage{paracol} % for two and three column entries
+\usepackage{ifthen} % for conditional statements
+\usepackage{needspace} % for avoiding page brake right after the section title
+\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
+
+
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage{charter}
+
+% Some settings:
+\raggedright
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
+\pagestyle{empty} % no header or footer
+\setcounter{secnumdepth}{0} % no section numbering
+\setlength{\parindent}{0pt} % no indentation
+\setlength{\topskip}{0pt} % no top skip
+\setlength{\columnsep}{0.15cm} % set column seperation
+\pagenumbering{gobble} % no page numbering
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{
+    % left space:
+    -1pt
+}{
+    % top space:
+    0.3 cm
+}{
+    % bottom space:
+    0.2 cm
+} % section title spacing
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights
+
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights for bullet entries
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{
+        0 cm + 0.00001 cm
+    }{
+        0 cm + 0.00001 cm
+    }
+}{
+    \end{adjustwidth}
+} % new environment for one column entries
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\newenvironment{threecolentry}[3][]{
+    \onecolentry
+    \def\thirdColumn{#3}
+    \setcolumnwidth{, \fill, 4.5 cm}
+    \begin{paracol}{3}
+    {\raggedright #2} \switchcolumn
+}{
+    \switchcolumn \raggedleft \thirdColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for three column entries
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+    \par\kern\topsep
+} % new environment for the header
+
+\newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
+  \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+    \put(
+        \LenToUnit{\paperwidth-2 cm-0 cm+0.05cm},
+        \LenToUnit{\paperheight-1.0 cm}
+    ){\vtop{{\null}\makebox[0pt][c]{
+        \small\color{gray}\textit{Last updated in July 2024}\hspace{\widthof{Last updated in July 2024}}
+    }}}%
+  }%
+}%
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% new command for external links:
+
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+
+    \begin{header}
+        \fontsize{25 pt}{25 pt}\selectfont Nicholas A. Johnson
+
+        \vspace{5 pt}
+
+        \normalsize
+        \mbox{East Lansing, Michigan, U.S.A.}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{mailto:john7932@msu.edu}{john7932@msu.edu}}%
+        \kern 5.0 pt%
+        \AND%
+        %\kern 5.0 pt%
+        %\mbox{\hrefWithoutArrow{tel:+90-541-999-99-99}{+90 541 999 99 99}}%
+        %\kern 5.0 pt%
+        %\AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://orcid.org/0000-0001-7272-6474/}{ORCID: 0000-0001-7272-6474}}%
+        \kern 5.0 pt%
+        \AND%
+        %\kern 5.0 pt%
+        %\mbox{\hrefWithoutArrow{https://yourwebsite.com/}{yourwebsite.com}}%
+        %\kern 5.0 pt%
+        %\AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/nick-johnson-b771b01a9/}{linkedin.com/in/nick-johnson-b771b01a9}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://github.com/Scrumpis}{github.com/Scrumpis}}%
+    \end{header}
+
+    \vspace{5 pt - 0.3 cm}
+
+
+
+
+    \section{Education}
+
+
+
+        
+        \begin{twocolentry}{
+            Aug 2021 – Current
+            }
+            \textbf{Michigan State University}, Ph.D., \textit{dual major}, Genetics and Genome Sciences; Ecology, Evolution, and Behavior 
+        \end{twocolentry}
+
+
+        \vspace{0.2 cm}
+        
+
+        \begin{twocolentry}{
+            Aug 2018 – May 2020
+            }
+            \textbf{University of Minnesota, Twin-Cities}, B.S., Plant Science (Breeding and Genetics)
+        \end{twocolentry}
+
+
+        \vspace{0.2 cm}
+        
+
+        \begin{twocolentry}{
+            Aug 2012 – Dec 2017
+            }
+            \textbf{Normandale Community College}, A.A., Liberal Arts
+        \end{twocolentry}
+
+
+
+    
+    \section{Research Experience}
+
+
+
+
+        \begin{samepage}        
+            \begin{twocolentry}{
+                July 2024 – Current
+                }
+                \textbf{Biological Science Technician (GS-7)}, United States Department of Agriculture (U.S.D.A.) -- Logan, UT
+                
+                \vspace{0.05 cm}
+
+                \textit{Principal Investigator: Dr. Matthew D. Robins}
+            \end{twocolentry}
+        \end{samepage}
+        
+        \vspace{0.10 cm}
+        
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Assembling and annotating the genome of \textit{Penstemon fruticosus}, a model genus for floral morphology evolution
+                \item Re-sequencing five additional \textit{Penstemon} species
+                \item Investigating evolutionary relationships of floral morphology among \textit{Penstemon spp.} with comparative genomics
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        
+        \begin{samepage}        
+            \begin{twocolentry}{
+                Aug 2021 – Current
+                }
+                \textbf{Graduate Research Assistant}, Michigan State University -- East Lansing, MI
+                
+                \vspace{0.05 cm}
+
+                \textit{Principal Investigator: Dr. Eric L. Patterson}
+            \end{twocolentry}
+        \end{samepage}
+        
+        \vspace{0.10 cm}
+        
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Investigating genomic patterns associated with adaptation in weedy plants through comparative genomics
+                \item Developing assorted genomic and evolutionary analysis tools to reduce barriers of analysis for non-computational biologists
+                \item Revealed genomic structural variation associated with herbicide resistance evolution in the agronomic weed \textit{Eleusine indica} using comparative genomics approaches
+                \item Automated a computational gene annotation pipeline with BASH wrapper scripts
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Dec 2018 – May 2020
+                }
+                \textbf{Undergraduate Researcher}, University of Minnesota -- St. Paul, MN
+                
+                \vspace{0.05 cm}
+
+                \textit{Principal Investigator: Dr. Alan G. Smith}
+            \end{twocolentry}
+        \end{samepage}            
+
+        \vspace{0.10 cm}
+        
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Independently researched abiotic stress and intraspecific competition of \textit{Nicotiana tabacum} (tobacco) pollen
+                \item Developed a Nanodrop Spectrophotometer method for quantifying pollen in a liquid solution
+                \item Propagated, crossed, tissue cultured, regenerated, and transformed tobacco plants
+                \item Collected and tissue cultured invasive plant samples and discussed management techniques with landowners
+                \item Communicated results through an undergraduate thesis and symposia presentations             
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+
+    \section{Teaching and Mentoring Experience}
+
+
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Jan 2024 – May 2024
+                }
+                \textbf{Graduate Teaching Assistant}, Michigan State University -- East Lansing, MI
+                
+                \vspace{0.05 cm}
+
+                \textit{IBIO 341 Fundamental Genetics -- Instructor: Dr. Jeanette McGuire}
+            \end{twocolentry}
+        \end{samepage}  
+
+        \vspace{0.10 cm}
+        
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Guided students through course content with two recitation sections and open office hours weekly            
+                \item Graded assignments, quizzes, and exams
+                \item Contributed to course refinement through weekly meetings with the instructor and teaching assistants
+            \end{highlights}
+        \end{onecolentry}
+
+        
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                May 2023 – July 2023
+                }
+                \textbf{Mentor}, Michigan State University -- East Lansing, MI
+                
+                \vspace{0.05 cm}
+
+                \textit{Research Experience for Undergraduates in Plant Genomics}
+            \end{twocolentry}
+        \end{samepage}          
+
+        \vspace{0.10 cm}
+        
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Guided a visiting student exploring subgenome evolution in a genus of agronomic weeds and crops
+                \item Helped students develop programming, computational analysis, and presentation skills
+            \end{highlights}
+        \end{onecolentry}
+        
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Jan 30 2023
+                }
+                \textbf{Lead Trainer}, International Weed Genomics Consortium Meeting, Washington, D.C.
+                
+                \vspace{0.05 cm}
+
+                \textit{Introductory Bioinformatics Workshop}
+            \end{twocolentry}
+        \end{samepage}
+        
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Led a conference workshop for primarily non-computational or early career scientists
+                \item Guided participants through a full RNA-Seq pipeline using public data
+                \item Helped organize event and develop workshop scripts               
+            \end{highlights}
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Oct 15 2022
+                }
+                \textbf{Trainer}, Michigan State University -- East Lansing, MI
+                
+                \vspace{0.05 cm}
+
+                \textit{Ecotek Lab Youth Scientists Visit}
+            \end{twocolentry}
+        \end{samepage}
+        
+        \vspace{0.10 cm}
+        
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Taught visiting junior scientists about genetics
+                \item Helped junior scientists run P.C.R. and subsequent gel electrophoresis
+            \end{highlights}
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                June 2022 – Present
+                }
+                \textbf{Mentor}, Michigan State University -- East Lansing, MI
+                
+                \vspace{0.05 cm}
+
+                \textit{Graduate Recruitment Initiative Team}
+            \end{twocolentry}
+        \end{samepage}         
+
+        \vspace{0.10 cm}
+        
+        \begin{onecolentry}
+            \begin{highlights}       
+                \item Guiding first-year Ph.D. students (assigned one student annually) through professional and general graduate student life decisions to help them acclimate
+                \item Attending group-sponsored meetings to recruit and retain graduate students
+            \end{highlights}
+        \end{onecolentry}
+
+        
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                May 2022 – July 2022
+                }
+                \textbf{Mentor}, Michigan State University -- East Lansing, MI
+                
+                \vspace{0.05 cm}
+
+                \textit{Research Experience for Undergraduates in Plant Genomics}
+            \end{twocolentry}
+        \end{samepage}    
+        
+        \vspace{0.10 cm}
+        
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Guided a visiting student through comparative genomics of agronomic weeds and crops to find genomic patterns associated with domestication
+                \item Helped students develop programming, computational analysis, and presentation skills
+            \end{highlights}
+        \end{onecolentry}        
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                May 2022 – July 2022
+                }
+                \textbf{Graduate Teaching Assistant}, Michigan State University -- East Lansing, MI
+                
+                \vspace{0.05 cm}
+
+                \textit{CSS 126 Introduction to Weed Management -- Instructor: Dr. Erin Hill}
+            \end{twocolentry}
+        \end{samepage}    
+        
+        \vspace{0.10 cm}
+        
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Graded and provided feedback on a semester-long project on agronomic weed identification, biology, and management throughout the course
+            \end{highlights}
+        \end{onecolentry}  
+
+
+
+
+    \section{Select Fellowships and Awards}
+
+
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                July 2024
+                }
+                \textbf{Agricultural Genome to Phenome Initiative Travel Award}, United States Department of Agriculture and Iowa State University
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                July 2024
+                }
+                \textbf{NSF Research Trainee Travel Award}, National Science Foundation and Michigan State University
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Aug 2022 – Aug 2023
+                }
+                \textbf{NSF Integrated Training Model in Computational Plant Sciences Fellowship}, National Science Foundation and Michigan State University
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                May 2022 – May 2025
+                }
+                \textbf{Plant Biotechnology for Health and Sustainability Fellowship}, National Institutes of Health and Michigan State University
+            \end{twocolentry}
+        \end{samepage} 
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                May 2020
+                }
+                \textbf{Collegiate Scholars Award}, American Society of Horticultural Science
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+        
+        
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Jan 2019 – May 2019
+                }
+                \textbf{Undergraduate Research Opportunity Program}, University of Minnesota, Twin-Cities
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Aug 2018 – May 2020
+                }
+                \textbf{Edward Hartwig Undergraduate Scholarship}, University of Minnesota, Twin-Cities
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Aug 2018 – May 2020
+                }
+                \textbf{Dr. Laddie Elling Outstanding Achievement Scholarship}, University of Minnesota, Twin-Cities
+            \end{twocolentry}
+        \end{samepage}  
+        
+
+        
+
+    \section{Conference Presentations}
+
+
+
+        
+        \begin{samepage}
+            \begin{twocolentry}{
+                June 2024
+                }
+                \textbf{Chromosome-level assembly of the allohexaploid \textit{Chenopodium album} L. genome reveals selection pressures on genes associated with adaptation}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{\textbf{Johnson, N. A.}}, \mbox{Cutti, L.}, \mbox{Abdollahi, F.}, \mbox{Fengler, K.}, \mbox{Nelson, D. R.}, \mbox{Llaca, V.}, \mbox{MacGregor, D. R.}, \mbox{Maughan, P. J.}, \mbox{Gaines, T. A.}, \& \mbox{Patterson, E. L.}
+
+                \vspace{0.10 cm}
+                
+                \textit{Plant Biology 2024}: Poster presentation
+            \end{onecolentry}
+        \end{samepage}
+
+
+        \vspace{0.2 cm}
+        
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                Jan 2024
+            }
+                \textbf{Subtelomeric \textit{EPSPS} duplications confer glyphosate resistance in \textit{Eleusine indica}}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{\textbf{Johnson, N. A.}}, \mbox{Hall, N.}, \mbox{Zhang, C.}, \mbox{Yu, Q.}, \& \mbox{Patterson, E. L.}
+
+                \vspace{0.10 cm}
+                
+                \textit{Weed Science Society of America Annual Meeting}: Single-slide oral presentation
+            \end{onecolentry}
+        \end{samepage}
+
+
+        \vspace{0.2 cm}
+        
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                Dec 2023
+            }
+                \textbf{Subtelomeric \textit{5-enolpyruvylshikimate-3-phosphate synthase} copy number variation confers glyphosate resistance in \textit{Eleusine indica}}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{\textbf{Johnson, N. A.}}, \mbox{Hall, N.}, \mbox{Zhang, C.}, \mbox{Yu, Q.}, \& \mbox{Patterson, E. L.}
+
+                \vspace{0.10 cm}
+                
+                \textit{North Central Weed Science Society Annual Meeting}: Poster presentation
+            \end{onecolentry}
+        \end{samepage}
+
+
+        \vspace{0.2 cm}
+        
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                Jan 2023
+            }
+                \textbf{Weeds, genomics, and evolution}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{\textbf{Johnson, N. A.}}
+
+                \vspace{0.10 cm}
+                
+                \textit{Weed Science Society of America Annual Meeting}: Three-minute thesis oral presentation
+            \end{onecolentry}
+        \end{samepage} 
+
+
+        \vspace{0.2 cm}
+        
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                Jan 2023
+            }
+                \textbf{FHY3/FAR1 transposable elements generate adaptive genetic variation in the \textit{Bassia scoparia} genome}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{\textbf{Johnson, N. A.}}
+
+                \vspace{0.10 cm}
+                
+                \textit{Plant and Animal Genome Conference 30}: Oral presentation
+            \end{onecolentry}
+        \end{samepage}      
+
+
+        \vspace{0.2 cm}
+        
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                Jan 2023
+            }
+                \textbf{Subtelomeric \textit{5-enolpyruvylshikimate-3-phosphate synthase} copy number variation confers glyphosate resistance in \textit{Eleusine indica}}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{\textbf{Johnson, N. A.}}, \mbox{Hall, N.}, \mbox{Zhang, C.}, \mbox{Yu, Q.}, \& \mbox{Patterson, E. L.}
+
+                \vspace{0.10 cm}
+                
+                \textit{Plant and Animal Genome Conference 30}: Poster presentation
+            \end{onecolentry}
+        \end{samepage}   
+
+
+        \vspace{0.2 cm}
+        
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                Dec 2022
+            }
+                \textbf{Subtelomeric rearrangements cause glyphosate resistance in \textit{Eleusine indica}}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{\textbf{Johnson, N. A.}}, \mbox{Hall, N.}, \mbox{Zhang, C.}, \mbox{Yu, Q.}, \& \mbox{Patterson, E. L.}
+
+                \vspace{0.10 cm}
+                
+                \textit{North Central Weed Science Society Annual Meeting}: Oral presentation
+            \end{onecolentry}
+        \end{samepage}              
+
+       
+%        \vspace{0.2 cm}
+%        
+%
+%        \begin{samepage}
+%            \begin{twocolentry}{
+%                Apr 2020
+%            }
+%                \textbf{Intraspecific pollen tube competition}
+%            \end{twocolentry}
+%
+%            \vspace{0.10 cm}
+%            
+%            \begin{onecolentry}
+%                \mbox{\textbf{Johnson, N. A.}}, \mbox{Abbey, M.}, \& \mbox{Smith, A. G.}
+%
+%                \vspace{0.10 cm}
+%                
+%                \textit{University of Minnesota, Twin-Cities Undergraduate Research Symposium}: Poster presentation
+%            \end{onecolentry}
+%        \end{samepage}
+
+
+
+
+    \section{Certificates}
+
+
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                May 2024
+                }
+                \textbf{Computational Plant Science Graduate Certificate}, Michigan State University
+            \end{twocolentry}
+        \end{samepage}  
+
+
+
+
+    \section{Additional Volunteer Positions}
+
+
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                July 2024 – Present
+                }
+                \textbf{Peer Reviewer}, Plant Communications -- One article
+            \end{twocolentry}
+        \end{samepage} 
+
+
+        \vspace{0.2 cm} 
+
+        
+        \begin{samepage} 
+            \begin{twocolentry}{
+                May 2024 – Present
+                }
+                \textbf{Genetics and Genome Sciences Program Representative}, Michigan State University
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Sept 2023 – Present
+                }
+                \textbf{Peer Reviewer}, Plant Physiology -- One article
+            \end{twocolentry}
+        \end{samepage}
+      
+        
+
+            
+    \section{Publications}
+
+
+
+        
+        \begin{samepage}
+            \begin{twocolentry}{
+                Jan 2024
+                }
+                \textbf{Expression-based machine learning models for predicting plant tissue identity}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{Palande, S.}, \mbox{\textbf{\textit{et al.}}}
+
+                \vspace{0.10 cm}
+                
+                \textit{bioRxiv}: \href{https://doi.org/10.1101/2023.08.20.554029}{10.1101/2023.08.20.554029}
+            \end{onecolentry}
+        \end{samepage}
+
+
+        \vspace{0.2 cm}
+        
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                Aug 2023
+            }
+                \textbf{Subtelomeric \textit{5-enolpyruvylshikimate-3-phosphate synthase} copy number variation confers glyphosate resistance in \textit{Eleusine indica}}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{Zhang, C.} \& \mbox{\textbf{Johnson, N. A.}}, \mbox{Hall, N.}, \mbox{Tian, X.}, \mbox{Yu, Q.}, \& \mbox{Patterson, E. L.}
+
+                \vspace{0.10 cm}
+                
+                \textit{Nature Communications}: \href{https://doi.org/10.1038/s41467-023-40407-6}{10.1038/s41467-023-40407-6}
+            \end{onecolentry}
+        \end{samepage}
+
+
+        \vspace{0.2 cm}
+        
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                Aug 2019
+            }
+                \textbf{Undergraduate Thesis: Intraspecific salt tolerance variation in \textit{Nicotiana tabacum} pollen germination and pollen tube growth}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{\textbf{Johnson, N. A.}}, \mbox{Smith, K. P.}, \& \mbox{Smith, A. G.}
+
+                \vspace{0.10 cm}
+                
+                \textit{UMN Digital Conservancy}: \href{https://hdl.handle.net/11299/206480}{https://hdl.handle.net/11299/206480} (\textit{not peer-reviewed})
+            \end{onecolentry}
+        \end{samepage}
+
+        
+
+
+    \section{Additional Employment History}
+
+
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Dec 2020 – Aug 2021
+                }
+                \textbf{Technical Sales Representative}, TubeWriter -- Fremont, CA
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Aug 2020 – Dec 2020
+                }
+                \textbf{In-House Sales Representative}, Gardenworld, Inc. -- Cottage Grove, MN
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                May 2018 – Aug 2018
+                }
+                \textbf{Server}, Simon \& Seafort's -- Anchorage, AK
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Apr 2016 – May 2018
+                }
+                \textbf{Server}, Al Vento -- Minneapolis, MN
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Apr 2015 – Apr 2016
+                }
+                \textbf{Wait Assistant/Food Runner}, Al Vento -- Minneapolis, MN
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+        
+        
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Feb 2014 – Apr 2015
+                }
+                \textbf{Valet}, Meritage -- St. Paul, MN
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                May 2013 – Feb 2014
+                }
+                \textbf{Valet/Bellman}, Hotel Zetta -- San Francisco, CA
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Jan 2012 – May 2013
+                }
+                \textbf{Valet}, The W, Foshay Tower -- Minneapolis, MN
+            \end{twocolentry}
+        \end{samepage}  
+
+
+        \vspace{0.2 cm}
+
+
+        \begin{samepage} 
+            \begin{twocolentry}{
+                Nov 2011 – Feb 2013
+                }
+                \textbf{Package Handler}, United Parcel Service -- M.S.P. International Airport, MN
+            \end{twocolentry}
+        \end{samepage}  
+
+
+
+
+\end{document}
