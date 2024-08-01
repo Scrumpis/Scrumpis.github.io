@@ -66,10 +66,8 @@ education:
     summary: |
       GPA: 3.65/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Study focus:
+      - Plant biology, breeding, propagation, genetics, and bioinformatics
   - area: AA Liberal Arts
     institution: Normandale Community College
     date_start: 2012-08-26
@@ -77,10 +75,8 @@ education:
     summary: |
       GPA: 3.5/4.0
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Study focus:
+      - General education for transfer into university
 work:
   - position: Graduate Research Assistant
     company_name: Michigan State University
