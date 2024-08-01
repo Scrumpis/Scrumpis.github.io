@@ -1,9 +1,9 @@
 ---
 # Display name
-title:
+title: Nick
 
 # Name pronunciation (optional)
-name_pronunciation: Nick Johnson
+name_pronunciation: Nicholas A Johnson
 
 # Full name (for SEO)
 first_name: Nicholas
@@ -64,19 +64,13 @@ education:
     date_start: 2018-08-26
     date_end: 2020-05-15
     summary: |
-      GPA: 3.65/4.0
-
-      Study focus:
-      - Plant biology, breeding, propagation, genetics, and bioinformatics
+      Plant biology, breeding, propagation, genetics, and bioinformatics
   - area: AA Liberal Arts
     institution: Normandale Community College
     date_start: 2012-08-26
     date_end: 2017-12-15
     summary: |
-      GPA: 3.5/4.0
-      
-      Study focus:
-      - General education for transfer into university
+      General education for transfer into university
 work:
   - position: Graduate Research Assistant
     company_name: Michigan State University
