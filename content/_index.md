@@ -24,11 +24,11 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: Hawaiian_Cliff.jpg
+          filename: Sunny_boat.jpg
           filters:
             brightness: 1.0
           size: cover
-          position: bottom
+          position: top
           parallax: false
   - block: markdown
     content:
