@@ -16,7 +16,7 @@ sections:
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: View CV
+        text: View or Download CV
         url: ../../Scrumpis/CV/NAJohnsonCV.pdf
     design:
       css_class: dark
@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: Hawaiian_Cliff.jpg
           filters:
             brightness: 1.0
           size: cover
