@@ -181,4 +181,4 @@ awards:
 
 ## About Me
 
-Nick Johnson is a dual PhD candidate of genetics and genome sciences and ecology, evolution, and behavior at Michigan State University. His research interests include plant adaptation, predicting phenotype from genotype, and public data analysis. His dissertation is using comparative genomics to reveal adaptive genomic patterns in agronomic weeds.
+Nick Johnson is a dual PhD candidate of genetics and genome sciences and ecology, evolution, and behavior at Michigan State University. His research interests include plant adaptation, predicting phenotype from genotype, and public data analysis. His dissertation is using comparative genomics to reveal genomic patterns associated with adaptation in agronomic weeds.
