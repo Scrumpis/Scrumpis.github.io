@@ -88,7 +88,7 @@ work:
     company_logo: ''
     date_start: 2021-01-01
     date_end: ''
-    summary: |2-
+    summary: |
       Responsibilities include:
       - Comparative genomics data analysis
       - Developing computational tools
@@ -98,7 +98,7 @@ work:
     company_url: ''
     company_logo: ''
     date_start: 2024-07-15
-    date_end:
+    date_end: ''
     summary: |
       Responsibilities include:
       - Assembling and annotating genomes
