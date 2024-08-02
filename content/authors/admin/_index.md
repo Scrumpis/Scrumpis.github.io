@@ -138,7 +138,6 @@ skills:
         description: ''
         percent: 10
         icon: circle-stack
-# Hobbies
  hobbies:
   - name: Outdoors
     color: '#eeac02'
