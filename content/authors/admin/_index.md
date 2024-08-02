@@ -39,6 +39,8 @@ profiles:
     url: https://github.com/Scrumpis
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/nick-johnson-b771b01a9/
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Nicholas-Johnson-71    
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=HDKLhBgAAAAJ&hl=en
   - icon: academicons/orcid
