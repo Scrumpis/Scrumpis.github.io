@@ -145,7 +145,7 @@ skills:
       - name: Omic data
         description: ''
         percent: 60
-        icon: code-bracket
+        icon: document-text
       - name: Visualization
         description: ''
         percent: 60
