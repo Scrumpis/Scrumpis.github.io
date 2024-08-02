@@ -55,7 +55,8 @@ education:
     date_start: 2021-08-16
     date_end: ''
     summary: |
-      Plant genomics, evolution, and computational biology, supervised by Dr. Eric L. Patterson
+      Plant genomics, evolution, and computational biology
+      Supervised by Dr. Eric L. Patterson
 #    Thesis on _Why LLMs are awesome_. Supervised by [Prof Eric L Patterson](https://www.thepattersonplantlab.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
 #    button:
 #      text: 'Read Thesis'
@@ -65,7 +66,8 @@ education:
     date_start: 2018-08-26
     date_end: 2020-05-15
     summary: |
-      Plant biology, breeding, propagation, genetics, and bioinformatics, supervised by Dr. Alan G. Smith
+      Plant biology, breeding, propagation, genetics, and bioinformatics
+      Supervised by Dr. Alan G. Smith
   - area: AA Liberal Arts
     institution: Normandale Community College
     date_start: 2012-08-26
