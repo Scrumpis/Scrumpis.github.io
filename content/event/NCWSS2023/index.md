@@ -12,7 +12,7 @@ address:
   postcode: '55403'
   country: United States
 
-summary: Poster presentation about our recent publication in *Nature communications*
+summary: Poster presentation about our recent publication in Nature communications
 abstract: 'Genomic structural variation (SV) has profound effects on organismal evolution; often serving as a source of novel genetic variation. Gene copy number variation (CNV), one type of SV, has repeatedly been associated with adaptive evolution in eukaryotes, especially with environmental stress. Resistance to the widely used herbicide, glyphosate, has evolved through target-site CNV in many weedy plant species, including the economically important grass, *Eleusine indica* (goosegrass); however, the origin and mechanism of these CNVs remain elusive in many weed species due to limited genetic and genomic resources. To study this CNV in goosegrass, we present high-quality reference genomes for glyphosate-susceptible and -resistant goosegrass lines and fine-assembles of the duplication of glyphosate’s target site gene *5-enolpyruvylshikimate-3-phosphate synthase* (*EPSPS*). We reveal a unique rearrangement of *EPSPS* involving chromosome subtelomeres. This discovery adds to the limited knowledge of the importance of subtelomeres as genetic variation generators and provides another unique example for herbicide resistance evolution.'
 
 # Talk start and end times.
