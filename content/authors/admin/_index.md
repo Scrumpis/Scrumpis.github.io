@@ -120,7 +120,7 @@ work:
       - Although not research related, essential component of my history
       - Soft skill refinement
       - Gave me a diverse perspective not often found in academia
-teaching:
+teach:
   - position: Graduate Research Assistant
     company_name: Michigan State University
     company_url: ''
