@@ -20,14 +20,6 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: true
-  - block: resume-experience
-    id: teach
-    content:
-      username: admin
-      title: Teaching Experience
-    design:
-      # Hugo date format
-      date_format: 'January 2006'
 #  - block: resume-awards
 #    content:
 #      title: Awards
