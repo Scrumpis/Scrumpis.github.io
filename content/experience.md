@@ -25,6 +25,7 @@ sections:
 #      title: Awards
 #      username: admin
   - block: resume-skills
+    id: skills
     content:
       title: Skills
       username: admin
