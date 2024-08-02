@@ -124,16 +124,16 @@ work:
 # Teaching
 teach:
   - position: Graduate Research Assistant
-   company_name: Michigan State University
-   company_url: ''
-   company_logo: ''
-   date_start: 2021-01-01
-   date_end: ''
-   summary: |
-     Responsibilities include:
-     - Comparative genomics data analysis
-     - Developing computational tools
-     - Mentoring and teaching students
+    company_name: Michigan State University
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-01-01
+    date_end: ''
+    summary: |
+      Responsibilities include:
+      - Comparative genomics data analysis
+      - Developing computational tools
+      - Mentoring and teaching students
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
