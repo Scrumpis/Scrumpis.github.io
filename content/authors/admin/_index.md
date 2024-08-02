@@ -110,6 +110,16 @@ work:
       - Tissue culture and transformation of tobacco and invasive plants
       - Pollen tube competition experiments
       - Communication of results through thesis and poster presentations
+  - position: Assorted Hospitality and Sales Positions
+    company_name: Many in Minnesota, California, and Alaska
+    company_url: ''
+    company_logo: ''
+    date_start: 2011-11-01
+    date_end: 2021-08-15
+    summary: |
+      - Although not research related, essential component of my history
+      - Soft skill refinement
+      - Gave me a diverse perspective not often found in academia
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -150,6 +160,8 @@ languages:
     percent: 100
   - name: Spanish
     percent: 25
+  - name: Gibberish
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
