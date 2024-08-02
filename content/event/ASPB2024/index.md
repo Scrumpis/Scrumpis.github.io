@@ -26,6 +26,15 @@ publishDate: '2024-07-01T00:00:00Z'
 
 authors:
   - admin
+  - Luan Cutti
+  - Fatemeh Abdollahi
+  - Kevin Fengler
+  - David R. Nelson
+  - Victor Llaca
+  - Dana R. MacGregor
+  - Peter J. Maughan
+  - Todd A. Gaines
+  - Eric L. Patterson
 
 tags: []
 
