@@ -2,12 +2,12 @@
 title: "Expression-based machine learning models for predicting plant tissue identity"
 authors:
 - Sourabh Palande
-- et al.
-date: "2019-04-07T00:00:00Z"
+- *et al.*
+date: "2024-01-30T00:00:00Z"
 doi: "10.1101/2023.08.20.554029"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-01-30T00:00:00Z"
+publishDate: "2024-02-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
