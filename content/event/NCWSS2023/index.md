@@ -17,7 +17,7 @@ abstract: 'Genomic structural variation (SV) has profound effects on organismal 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-01-23T10:35:00Z'
+date: '2023-12-12T8:00:00Z'
 # date_end: '2024-01-23T10:45:00Z'
 all_day: false
 
