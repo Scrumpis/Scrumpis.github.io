@@ -25,7 +25,6 @@ abstract: The selection of Arabidopsis as a model organism played a pivotal role
 
 # tags:
 # - Large Language Models
-
 # featured: false
 
 links:
