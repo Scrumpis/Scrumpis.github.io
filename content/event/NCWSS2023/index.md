@@ -37,7 +37,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Poster presentation by Nicholas A. Johnson at North Central Weed Science Society 2023'
+  caption: 'Nicholas A. Johnson receives 2nd place in the graduate poster competition at North Central Weed Science Society 2023'
   focal_point: Right
 
 #links:
