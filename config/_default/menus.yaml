@@ -26,5 +26,5 @@ main:
 #    url: projects/
 #    weight: 40
   - name: Skills
-    url: experience/skills
+    url: experience/#skills
     weight: 50
