@@ -177,7 +177,7 @@ skills:
       - name: R
         description: ''
         percent: 60
-        icon: chart-bar
+        icon: R
       - name: Python
         description: ''
         percent: 10
