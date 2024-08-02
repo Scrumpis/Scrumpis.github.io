@@ -55,7 +55,7 @@ education:
     date_start: 2021-08-16
     date_end: ''
     summary: |
-      Supervised by [Prof Eric L Patterson](https://www.thepattersonplantlab.com). Plant genomics, evolution, and computational biology
+      Plant genomics, evolution, and computational biology, supervised by Dr. Eric L. Patterson
 #    Thesis on _Why LLMs are awesome_. Supervised by [Prof Eric L Patterson](https://www.thepattersonplantlab.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
 #    button:
 #      text: 'Read Thesis'
@@ -65,7 +65,7 @@ education:
     date_start: 2018-08-26
     date_end: 2020-05-15
     summary: |
-      Supervised by Dr. Alan G. Smith. Plant biology, breeding, propagation, genetics, and bioinformatics
+      Plant biology, breeding, propagation, genetics, and bioinformatics, supervised by Dr. Alan G. Smith
   - area: AA Liberal Arts
     institution: Normandale Community College
     date_start: 2012-08-26
@@ -110,19 +110,19 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming
     items:
+      - name: BASH
+        description: ''
+        percent: 60
+        icon: code-bracket
+      - name: R
+        description: ''
+        percent: 60
+        icon: chart-bar
       - name: Python
         description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
+        percent: 10
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
@@ -130,16 +130,16 @@ skills:
     items:
       - name: Hiking
         description: ''
-        percent: 60
+        percent: 80
         icon: person-simple-walk
       - name: Traveling
         description: ''
         percent: 100
-        icon: airplane
-      - name: Photography
+        icon: earth
+      - name: Guitar
         description: ''
         percent: 80
-        icon: camera
+        icon: guitar
 
 languages:
   - name: English
