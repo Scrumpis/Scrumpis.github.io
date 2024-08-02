@@ -13,7 +13,7 @@ address:
   country: United States
 
 summary: A single-slide talk about our recent publication in *Nature communications*
-abstract: 'Recent advances in genomic sequencing technologies have resulted in numerous high-quality genomes for model plant species, however, such data remains scarce for non-model plant species such as agricultural weeds. To rectify this limitation, the International Weed Genomics Consortium (IWGC) was established in 2021 to sequence, assemble, annotate, and publish reference-quality genomes for the most economically important weed species1. Here we present a chromosome-level genome for the cosmopolitan allohexaploid (BCD subgenomes) weed, *Chenopodium album* L., produced by the IWGC. We hypothesize weeds contain genomic patterns associated with their adaptive capabilities which are not found in their non-weed relatives. To investigate, we compared homologous regions, cytochrome P450 content, and selection pressures in terms of the ratio of non-synonymous to synonymous protein-coding nucleotide substitutions (dN/dS) between the IWGC *C. album* genome from the United States, a public *C. album* genome from the United Kingdom, and *C. formosanum* (djulis; BCD subgenomes), a theorized domesticated form of *C. album*. We found selection patterns across genes associated with adaptation in plants. We also provide a pipeline which we hope will make the analysis and visualization of dN/dS values faster and more accessible, especially for non-computational scientists.'
+abstract: 'Genomic structural variation (SV) has profound effects on organismal evolution; often serving as a source of novel genetic variation. Gene copy number variation (CNV), one type of SV, has repeatedly been associated with adaptive evolution in eukaryotes, especially with environmental stress. Resistance to the widely used herbicide, glyphosate, has evolved through target-site CNV in many weedy plant species, including the economically important grass, *Eleusine indica* (goosegrass); however, the origin and mechanism of these CNVs remain elusive in many weed species due to limited genetic and genomic resources. To study this CNV in goosegrass, we present high-quality reference genomes for glyphosate-susceptible and -resistant goosegrass lines and fine-assembles of the duplication of glyphosate’s target site gene *5-enolpyruvylshikimate-3-phosphate synthase* (*EPSPS*). We reveal a unique rearrangement of *EPSPS* involving chromosome subtelomeres. This discovery adds to the limited knowledge of the importance of subtelomeres as genetic variation generators and provides another unique example for herbicide resistance evolution.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -37,7 +37,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Poster presentation by Nicholas A. Johnson at Weed Science Society of America 2024'
+  caption: 'Single-slide talk by Nicholas A. Johnson at Weed Science Society of America 2024'
   focal_point: Right
 
 #links:
