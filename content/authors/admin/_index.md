@@ -152,6 +152,10 @@ skills:
         description: ''
         percent: 10
         icon: circle-stack
+      - name: LaTeX
+        description: ''
+        percent: 10
+        icon: circle-stack
 hobbies:
  - name: Outdoors
    color: '#eeac02'
