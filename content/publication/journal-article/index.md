@@ -58,7 +58,7 @@ url_video: ''
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+# projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -67,6 +67,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
-
-Introduction
-Eleusine indica (goosegrass) is one of the most economically important weed species in tropical and sub-tropical regions globally, commonly infesting cereals (especially rice), legumes, cotton, vegetable crops, and turf systems. Decades of using the herbicide glyphosate for goosegrass control has applied enormous selective pressure for glyphosate resistance evolution. Glyphosate is a non-selective herbicide that targets the protein 5-enolpyruvylshikimate-3-phosphate synthase (EPSPS)1, an essential enzyme for aromatic amino acid synthesis in plants. In some cases, glyphosate resistance in goosegrass is caused by EPSPS target site mutations, such as the Pro106 single mutations and the Thr102Ile and Pro106Ser (i.e., TIPS) double mutation2; however, increased EPSPS copy number variation (CNV)3, a type of genomic structural variation (SV), is the more frequent mechanism3 in this species. With both mechanisms present in goosegrass, some populations, or even individuals, can have both EPSPS CNV and target-site mutations4, with some, most, or all the copies of EPSPS having one or multiple mutations.
