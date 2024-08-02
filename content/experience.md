@@ -11,6 +11,7 @@ design:
 # Page sections
 sections:
   - block: resume-experience
+    id: work
     content:
       username: admin
       title: Work Experience
@@ -19,7 +20,8 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: true
-  - block: teaching
+  - block: resumse-experience
+    id: teach
     content:
       username: admin
       title: Teaching Experience
