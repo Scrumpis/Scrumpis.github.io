@@ -138,36 +138,6 @@ teach:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Programming
-    items:
-      - name: BASH
-        description: ''
-        percent: 60
-        icon: code-bracket
-      - name: R
-        description: ''
-        percent: 60
-        icon: chart-bar
-      - name: Python
-        description: ''
-        percent: 10
-        icon: python
-      - name: LaTeX
-        description: ''
-        percent: 10
-        icon: circle-stack
-      - name: Git
-        description: ''
-        percent: 10
-        icon: circle-stack
-      - name: HPC
-        description: ''
-        percent: 10
-        icon: circle-stack
-      - name: Tool dev
-        description: ''
-        percent: 10
-        icon: circle-stack                     
   - name: Research
     items:
       - name: Omic data
@@ -197,7 +167,37 @@ skills:
       - name: Tissue culture
         description: ''
         percent: 10
-        icon: plant    
+        icon: plant  
+  - name: Programming
+    items:
+      - name: BASH
+        description: ''
+        percent: 60
+        icon: code-bracket
+      - name: R
+        description: ''
+        percent: 60
+        icon: chart-bar
+      - name: Python
+        description: ''
+        percent: 10
+        icon: python
+      - name: LaTeX
+        description: ''
+        percent: 10
+        icon: circle-stack
+      - name: Git
+        description: ''
+        percent: 10
+        icon: circle-stack
+      - name: HPC
+        description: ''
+        percent: 10
+        icon: circle-stack
+      - name: Tool dev
+        description: ''
+        percent: 10
+        icon: circle-stack                       
   - name: Soft Skills
     items:
       - name: Communication
