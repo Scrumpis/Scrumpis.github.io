@@ -164,7 +164,7 @@ skills:
         description: ''
         percent: 10
         icon: circle-stack
-      - name: Tool development
+      - name: Tool dev
         description: ''
         percent: 10
         icon: circle-stack                     
@@ -182,7 +182,7 @@ skills:
         description: ''
         percent: 10
         icon: python
-      - name: Statistical Analysis
+      - name: Stat Analysis
         description: ''
         percent: 10
         icon: circle-stack
@@ -197,7 +197,37 @@ skills:
       - name: Tissue culture
         description: ''
         percent: 10
-        icon: circle-stack    
+        icon: plant    
+  - name: Soft Skills
+    items:
+      - name: Communication
+        description: ''
+        percent: 60
+        icon: code-bracket
+      - name: Collaboration
+        description: ''
+        percent: 60
+        icon: chart-bar
+      - name: Creativity
+        description: ''
+        percent: 10
+        icon: python
+      - name: Problem Solving
+        description: ''
+        percent: 10
+        icon: circle-stack
+      - name: Detail
+        description: ''
+        percent: 10
+        icon: circle-stack
+      - name: Leadership
+        description: ''
+        percent: 10
+        icon: circle-stack
+      - name: Flexibility
+        description: ''
+        percent: 10
+        icon: circle-stack 
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
