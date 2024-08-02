@@ -168,7 +168,7 @@ skills:
         description: ''
         percent: 10
         icon: circle-stack                     
-  - name: Outdoors
+  - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
@@ -184,14 +184,14 @@ skills:
         description: ''
         percent: 80
         icon: tent
-  - name: Indoors
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
       - name: Guitar
         description: ''
         percent: 80
         icon: guitar
+      - name: Kayaking
+        description: ''
+        percent: 100
+        icon: boat
       - name: Exercising
         description: ''
         percent: 100
