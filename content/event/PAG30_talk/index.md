@@ -34,7 +34,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Nicholas A. Johnson presents P.I.'s dissertation with 24hour notice due to scheduling conflict'
+  caption: 'Nicholas A. Johnson presents P.I. dissertation with 24hour notice due to scheduling conflict'
   focal_point: Right
 
 #links:
