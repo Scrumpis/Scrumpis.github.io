@@ -1,6 +1,5 @@
 ---
-title: Chromosome-level assembly of the allohexaploid *Chenopodium album* L.
-genome reveals selection pressures on genes associated with adaptation
+title: Chromosome-level assembly of the allohexaploid *Chenopodium album* L. genome reveals selection pressures on genes associated with adaptation
 
 event: Plant Biology 2024
 event_url: https://plantbiology.aspb.org/plant-biology-2024/
