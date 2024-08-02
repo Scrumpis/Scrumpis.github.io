@@ -191,11 +191,11 @@ skills:
       - name: GitHub
         description: ''
         percent: 10
-        icon: devicon/github
+        icon: server
       - name: HPC
         description: ''
         percent: 10
-        icon: server-stack
+        icon: cloud
       - name: Tool dev
         description: ''
         percent: 10
@@ -229,7 +229,7 @@ skills:
       - name: Flexibility
         description: ''
         percent: 10
-        icon: arrows-left-right 
+        icon: arrows-right-left 
 #  - name: Hobbies
 #    color: '#eeac02'
 #    color_border: '#f0bf23'
