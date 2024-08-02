@@ -153,7 +153,7 @@ skills:
       - name: Data mining
         description: ''
         percent: 10
-        icon: python
+        icon: computer-desktop
       - name: Stat Analysis
         description: ''
         percent: 10
@@ -175,11 +175,11 @@ skills:
       - name: BASH
         description: ''
         percent: 60
-        icon: code-bracket
+        icon: command-line
       - name: R
         description: ''
         percent: 60
-        icon: window
+        icon: code-bracket
       - name: Python
         description: ''
         percent: 10
