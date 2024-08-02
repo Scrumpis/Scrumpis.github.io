@@ -65,7 +65,7 @@ education:
     date_start: 2018-08-26
     date_end: 2020-05-15
     summary: |
-      Plant biology, breeding, propagation, genetics, and bioinformatics
+      Supervised by Dr. Alan G. Smith. Plant biology, breeding, propagation, genetics, and bioinformatics
   - area: AA Liberal Arts
     institution: Normandale Community College
     date_start: 2012-08-26
