@@ -1,8 +1,8 @@
 ---
 title: "Subtelomeric 5-enolpyruvylshikimate-3-phosphate synthase copy number variation confers glyphosate resistance in Eleusine indica"
 authors:
-- Chun Zhang
-- admin
+- Chun Zhang*
+- admin*
 - Nathan Hall
 - Xingshan Tian
 - Qin Yu
