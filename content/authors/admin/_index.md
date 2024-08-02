@@ -179,7 +179,7 @@ skills:
       - name: R
         description: ''
         percent: 60
-        icon: devicon/r
+        icon: window
       - name: Python
         description: ''
         percent: 10
@@ -187,7 +187,7 @@ skills:
       - name: LaTeX
         description: ''
         percent: 10
-        icon: devicon/tex
+        icon: italic
       - name: GitHub
         description: ''
         percent: 10
