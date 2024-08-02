@@ -156,7 +156,18 @@ skills:
         description: ''
         percent: 10
         icon: circle-stack
-hobbies:
+      - name: Git
+        description: ''
+        percent: 10
+        icon: circle-stack
+      - name: HPC
+        description: ''
+        percent: 10
+        icon: circle-stack
+      - name: Tool development
+        description: ''
+        percent: 10
+        icon: circle-stack                     
  - name: Outdoors
    color: '#eeac02'
    color_border: '#f0bf23'
