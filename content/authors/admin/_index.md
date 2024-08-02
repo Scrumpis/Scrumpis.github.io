@@ -95,7 +95,7 @@ work:
       - Assembling and annotating genomes
       - Comparative genomics data analysis
       - Publishing and communicating results
-    - position: Undergraduate Research Assistant
+  - position: Undergraduate Research Assistant
     company_name: University of Minnesota, Twin-Cities
     company_url: ''
     company_logo: ''
