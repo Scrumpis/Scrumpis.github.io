@@ -151,7 +151,7 @@ skills:
       - name: Python
         description: ''
         percent: 10
-        icon: circle-stack
+        icon: python
       - name: LaTeX
         description: ''
         percent: 10
@@ -168,6 +168,36 @@ skills:
         description: ''
         percent: 10
         icon: circle-stack                     
+  - name: Research
+    items:
+      - name: Omic data
+        description: ''
+        percent: 60
+        icon: code-bracket
+      - name: Visualization
+        description: ''
+        percent: 60
+        icon: chart-bar
+      - name: Data mining
+        description: ''
+        percent: 10
+        icon: python
+      - name: Statistical Analysis
+        description: ''
+        percent: 10
+        icon: circle-stack
+      - name: Gene annotation
+        description: ''
+        percent: 10
+        icon: circle-stack
+      - name: Machine Learning
+        description: ''
+        percent: 10
+        icon: circle-stack
+      - name: Tissue culture
+        description: ''
+        percent: 10
+        icon: circle-stack    
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
