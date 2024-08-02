@@ -168,38 +168,38 @@ skills:
         description: ''
         percent: 10
         icon: circle-stack                     
- - name: Outdoors
-   color: '#eeac02'
-   color_border: '#f0bf23'
-   items:
-     - name: Hiking
-       description: ''
-       percent: 80
-       icon: person-simple-walk
-     - name: Traveling
-       description: ''
-       percent: 100
-       icon: earth
-     - name: Camping
-       description: ''
-       percent: 80
-       icon: tent
- - name: Indoors
-   color: '#eeac02'
-   color_border: '#f0bf23'
-   items:
-     - name: Guitar
-       description: ''
-       percent: 80
-       icon: guitar
-     - name: Exercising
-       description: ''
-       percent: 100
-       icon: weight
-     - name: Gaming
-       description: ''
-       percent: 80
-       icon: controller
+  - name: Outdoors
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking
+        description: ''
+        percent: 80
+        icon: person-simple-walk
+      - name: Traveling
+        description: ''
+        percent: 100
+        icon: earth
+      - name: Camping
+        description: ''
+        percent: 80
+        icon: tent
+  - name: Indoors
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Guitar
+        description: ''
+        percent: 80
+        icon: guitar
+      - name: Exercising
+        description: ''
+        percent: 100
+        icon: weight
+      - name: Gaming
+        description: ''
+        percent: 80
+        icon: controller
 
 languages:
   - name: English
