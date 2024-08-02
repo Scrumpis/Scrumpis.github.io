@@ -157,7 +157,7 @@ skills:
       - name: Stat Analysis
         description: ''
         percent: 10
-        icon: circle-stack
+        icon: sparkles
       - name: Writing
         description: ''
         percent: 10
@@ -165,7 +165,7 @@ skills:
       - name: Machine Learning
         description: ''
         percent: 10
-        icon: circle-stack
+        icon: light-bulb
       - name: Tissue culture
         description: ''
         percent: 10
@@ -179,7 +179,7 @@ skills:
       - name: R
         description: ''
         percent: 60
-        icon: R
+        icon: devicon/r
       - name: Python
         description: ''
         percent: 10
@@ -187,11 +187,11 @@ skills:
       - name: LaTeX
         description: ''
         percent: 10
-        icon: circle-stack
-      - name: Git
+        icon: devicon/tex
+      - name: GitHub
         description: ''
         percent: 10
-        icon: github
+        icon: devicon/github
       - name: HPC
         description: ''
         percent: 10
@@ -213,7 +213,7 @@ skills:
       - name: Creativity
         description: ''
         percent: 10
-        icon: light-bulb
+        icon: paint-brush
       - name: Problem Solving
         description: ''
         percent: 10
@@ -229,7 +229,7 @@ skills:
       - name: Flexibility
         description: ''
         percent: 10
-        icon: circle-stack 
+        icon: arrows-left-right 
 #  - name: Hobbies
 #    color: '#eeac02'
 #    color_border: '#f0bf23'
