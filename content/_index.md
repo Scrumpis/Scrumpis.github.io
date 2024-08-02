@@ -35,15 +35,18 @@ sections:
       title: '🌿 My Research 🧬'
       subtitle: ''
       text: |-
+        I am currently seeking post-doctoral research opportunities, especially those related to rapid adaptation in plants, machine learning with omic data, bioinformatics, and climate change. Please reach out if you have a position you think I would be a good fit for. Thank you!
+        
         As a graduate research assistant in Dr. Eric Patterson's lab at Michigan State University, I utilize a range of computational approaches for comparative genomics of weedy and non-           weedy plant genomes to understand the adaptive capabilities of weeds.
 
         In the first chapter of my dissertation, we sequenced, assembled, and annotated chromosome-level genomes for a glyphosate-resistant individual and a glyphosate-susceptible individual of *Eleusine indica* (goosegrass), a significant weed of rice, cotton, and turf. We also re-sequenced and generated RNA-seq for eight individuals of each population to observe structural variation surrounding the gene *5-enolpyruvylshikimate-3-phosphate synthase* (*EPSPS*), which produces the target protein of glyphosate. We found that in glyphosate-resistant goosegrass, the ~40Kbp surrounding *EPSPS* and a ~30Kbp region located ~1Mbp away from the native location of *EPSPS* are transclocated from their native locations on chromosome three to the subtelomere of chromosome three where they are fused into a 100Kbp unit and subsequently duplicated. We believe this unique structural variation results in *EPSPS* being duplicated ~25 times and overexpressed in all glyphosate-resistant indivuals and none of the glyphosate-susceptible individuals. We published this work in *Nature Communications* in August 2023, just in time for my comprehensive exam 😁
 
-        I am currently conducting comparative genomics analyses to observe structural variation within the *Chenopodium* genus. There are several crop, weed, and wild plants within this genus with publicly available genomic resources, including a chromosome-level genome our group (the International Weed Genomics Consortium) produced for this project. 
+        For the second chapter of my dissertation, I am conducting comparative genomics analyses to observe genomic patterns of adaptation and domestication within the *Chenopodium* genus. There are several crop, weed, and wild plants of varying ploidy within this genus with publicly available genomic resources, making *Chenopodium* an ideal genus for comparative genomics. So far, we (the International Weed Genomics Consortium) have produced an annotated chromosome-level genome for *Chenopodium album*, an economically-significant cosmopolitan allohexaploid weed. We used this genome with other *Chenopodium* genomes to reveal subgenomic evolutionary relationships through synteny and phylogeny, gene divergence and conservation with dN/dS and enrichment, and unique and shared segmental duplications among species. This work is nearing completion, forming an story about rapid adaptation in agronomic weeds and resulting in new computational pipelines to make such analyses more approachable for non-computational biologists.
 
-        Additionally, I enjoy producing computational tools from my work with the aim of making computational analysis more approachable for non-computational biologists.
+        The third chapter of my dissertation will use our previously developed pipelines and a transfer learning approach with adapted publicly-available deep learning models with over 60 chromosome-level genomes from many weed species produced by our group and just as many genomes of related non-weeds to analyze broad patterns related to rapid adapation in weeds. I am very excited about this project and will make sure to release an update once the project nears the preprint phase.
         
         Please reach out if you would like to collaborate!
+
     design:
       columns: '1'
 #  - block: collection
