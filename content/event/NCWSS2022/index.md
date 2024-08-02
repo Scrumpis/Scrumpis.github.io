@@ -4,12 +4,12 @@ title: Subtelomeric rearrangements cause glyphosate resistance in Eleusine indic
 event: North Central Weed Science Society 2022
 event_url: https://ncwss.org/annual-meeting/
 
-location: Hyatt Regency Minneapolis
+location: Hyatt Regency Saint Louis at the Arch
 address:
-  street: 1300 Nicollet Mall
-  city: Minneapolis
-  region: MN
-  postcode: '55403'
+  street: 315 Chestnut Street
+  city: Saint Louis
+  region: MO
+  postcode: '63102'
   country: United States
 
 summary: Oral presentation about our ongoing structural variation work with glyphosate-resistant goosegrass
