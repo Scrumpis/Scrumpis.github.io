@@ -158,10 +158,10 @@ skills:
         description: ''
         percent: 10
         icon: circle-stack
-      - name: Gene annotation
+      - name: Writing
         description: ''
         percent: 10
-        icon: circle-stack
+        icon: pencil
       - name: Machine Learning
         description: ''
         percent: 10
@@ -169,7 +169,7 @@ skills:
       - name: Tissue culture
         description: ''
         percent: 10
-        icon: plant  
+        icon: beaker  
   - name: Programming
     items:
       - name: BASH
@@ -191,41 +191,41 @@ skills:
       - name: Git
         description: ''
         percent: 10
-        icon: circle-stack
+        icon: github
       - name: HPC
         description: ''
         percent: 10
-        icon: circle-stack
+        icon: server-stack
       - name: Tool dev
         description: ''
         percent: 10
-        icon: circle-stack                       
+        icon: wrench-screwdriver                       
   - name: Soft Skills
     items:
       - name: Communication
         description: ''
         percent: 60
-        icon: code-bracket
+        icon: presentation-chart-line
       - name: Collaboration
         description: ''
         percent: 60
-        icon: chart-bar
+        icon: users
       - name: Creativity
         description: ''
         percent: 10
-        icon: python
+        icon: light-bulb
       - name: Problem Solving
         description: ''
         percent: 10
-        icon: circle-stack
+        icon: puzzle-piece
       - name: Detail
         description: ''
         percent: 10
-        icon: circle-stack
+        icon: magnifying-glass
       - name: Leadership
         description: ''
         percent: 10
-        icon: circle-stack
+        icon: user-group
       - name: Flexibility
         description: ''
         percent: 10
