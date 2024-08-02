@@ -155,22 +155,22 @@ skills:
         description: ''
         percent: 80
         icon: tent
-  - name: Indoors
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Guitar
-        description: ''
-        percent: 80
-        icon: guitar
-      - name: Exercising
-        description: ''
-        percent: 100
-        icon: weight
-      - name: Gaming
-        description: ''
-        percent: 80
-        icon: controller
+#  - name: Indoors
+#    color: '#eeac02'
+#    color_border: '#f0bf23'
+#    items:
+#      - name: Guitar
+#        description: ''
+#        percent: 80
+#        icon: guitar
+#      - name: Exercising
+#        description: ''
+#        percent: 100
+#        icon: weight
+#      - name: Gaming
+#        description: ''
+#        percent: 80
+3        icon: controller
 
 languages:
   - name: English
