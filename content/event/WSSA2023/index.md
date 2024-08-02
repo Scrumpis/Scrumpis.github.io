@@ -12,7 +12,7 @@ address:
   postcode: '22202'
   country: United States
 
-summary: Three-minute thesis summarizing Nicholas A. Johnson's planned dissertation
+summary: Three-minute thesis summarizing Nicholas A. Johnson's planned dissertation at Weed Science Society of America 2023
 # abstract: ''
 
 # Talk start and end times.
