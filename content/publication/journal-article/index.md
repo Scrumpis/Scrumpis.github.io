@@ -28,7 +28,7 @@ publication_short: ""
 abstract: Genomic structural variation (SV) has profound effects on organismal evolution; often serving as a source of novel genetic variation. Gene copy number variation (CNV), one type of SV, has repeatedly been associated with adaptive evolution in eukaryotes, especially with environmental stress. Resistance to the widely used herbicide, glyphosate, has evolved through target-site CNV in many weedy plant species, including the economically important grass, *Eleusine indica* (goosegrass); however, the origin and mechanism of these CNVs remain elusive in many weed species due to limited genetic and genomic resources. To study this CNV in goosegrass, we present high-quality reference genomes for glyphosate-susceptible and -resistant goosegrass lines and fine-assembles of the duplication of glyphosate’s target site gene *5-enolpyruvylshikimate-3-phosphate synthase* (*EPSPS*). We reveal a unique rearrangement of *EPSPS* involving chromosome subtelomeres. This discovery adds to the limited knowledge of the importance of subtelomeres as genetic variation generators and provides another unique example for herbicide resistance evolution.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
 - Source Themes
@@ -48,7 +48,7 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-#image:
+# image:
 #  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
 #  focal_point: ""
 #  preview_only: false
@@ -65,15 +65,8 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+# Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing- 
+# markdown-latex/).
