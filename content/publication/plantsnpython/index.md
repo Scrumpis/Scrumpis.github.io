@@ -2,7 +2,7 @@
 title: "Expression-based machine learning models for predicting plant tissue identity"
 authors:
 - Sourabh Palande
-- *et al.*
+- et al.
 date: "2024-01-30T00:00:00Z"
 doi: "10.1101/2023.08.20.554029"
 
