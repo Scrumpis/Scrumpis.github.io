@@ -21,8 +21,8 @@ sections:
       is_education_first: true
   - block: teaching
     content:
-      title: Teaching Experience
       username: admin
+      title: Teaching Experience
     design:
       # Hugo date format
       date_format: 'January 2006'
