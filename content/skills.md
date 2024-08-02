@@ -12,7 +12,7 @@ design:
 sections:
   - block: resume-skills
     content:
-      title: Skills and Hobbies
+      title: Skills
       username: admin
     design:
       show_skill_percentage: false
