@@ -109,6 +109,7 @@ work:
     date_end: 2024-05-15
     summary: |
       *Fundamental Genetics*
+    
       Responsibilities included:
       - Weekly recitations and office hours
       - Grading assignments, quizzes, and exams
@@ -167,6 +168,7 @@ work:
     date_end: 2024-05-15
     summary: |
       *Introduction to Weed Management*
+    
       Responsibilities included:
       - Grading semester-long project
   - position: Undergraduate Research Assistant
