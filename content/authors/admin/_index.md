@@ -325,8 +325,6 @@ languages:
     percent: 100
   - name: Spanish
     percent: 25
-  - name: Gibberish
-    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
