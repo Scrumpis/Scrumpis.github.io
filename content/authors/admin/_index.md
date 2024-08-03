@@ -101,6 +101,74 @@ work:
       - Assembling and annotating genomes
       - Comparative genomics data analysis
       - Publishing and communicating results
+  - position: Graduate Teaching Assistant
+    company_name: Michigan State University
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-01-01
+    date_end: 2024-05-15
+    summary: |
+      *Fundamental Genetics*
+      Responsibilities included:
+      - Weekly recitations and office hours
+      - Grading assignments, quizzes, and exams
+  - position: Mentor
+    company_name: Research Experience for Undergrads, MSU
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-05-01
+    date_end: 2023-07-15
+    summary: |
+      Responsibilities included:
+      - Guiding student through two month plant genomics project
+      - Teaching programming and computational analysis
+  - position: Lead Trainer
+    company_name: International Weed Genomics Consortium Meeting 2023
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-01-30
+    date_end: 2023-01-30
+    summary: |
+      Responsibilities included:
+      - Guiding attendees through RNA-Seq pipeline
+  - position: Trainer
+    company_name: Ecotek Lab Youth Scientists Visit
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-10-15
+    date_end: 2022-10-15
+    summary: |
+      Responsibilities included:
+      - Teaching students genetics and PCR
+  - position: Mentor
+    company_name: Graduate Recruitment Initiative Team, MSU
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-06-01
+    # date_end: 2022-07-15
+    summary: |
+      Responsibilities included:
+      - Guiding first-year grad students through grad life
+  - position: Mentor
+    company_name: Research Experience for Undergrads, MSU
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-05-01
+    date_end: 2022-07-15
+    summary: |
+      Responsibilities included:
+      - Guiding student through two month plant genomics project
+      - Teaching programming and computational analysis
+  - position: Graduate Teaching Assistant
+    company_name: Michigan State University
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-01-01
+    date_end: 2024-05-15
+    summary: |
+      *Introduction to Weed Management*
+      Responsibilities included:
+      - Grading semester-long project
   - position: Undergraduate Research Assistant
     company_name: University of Minnesota, Twin-Cities
     company_url: ''
@@ -123,19 +191,6 @@ work:
       - Soft skill refinement
       - Gave me a diverse perspective not often found in academia
 
-# Teaching
-teach:
-  - position: Graduate Research Assistant
-    company_name: Michigan State University
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |
-      Responsibilities include:
-      - Comparative genomics data analysis
-      - Developing computational tools
-      - Mentoring and teaching students
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
