@@ -28,7 +28,7 @@ organizations:
     url: https://www.thepattersonplantlab.com/
 
 
-# Experience
+# Teaching
 work:
   - position: Graduate Research Assistant
     company_name: Michigan State University
